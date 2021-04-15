@@ -1274,4 +1274,17 @@ List<Map<String, dynamic>> currencies = [
     "space_between_amount_and_symbol": true,
     "symbol_on_left": true,
   },
+  {
+    "code": "ZMW",
+    "name": "Zambian Kwacha",
+    "symbol": "ZMW",
+    "flag": "ZM",
+    "decimal_digits": 2,
+    "number": 967,
+    "name_plural": "Zambian Kwacha",
+    "thousands_separator": ",",
+    "decimal_separator": ".",
+    "space_between_amount_and_symbol": false,
+    "symbol_on_left": true,
+  },
 ];
