@@ -22,6 +22,13 @@ class CurrencyService {
         .firstWhereOrNull((currency) => currency.code == uppercaseCode);
   }
 
+  ///Returns the first currency that mach the given code.
+  Currency? findByFlag(String? flag) {
+    final uppercaseFlag = flag?.toUpperCase();
+    return _currencies
+        .firstWhereOrNull((currency) => currency.flag == uppercaseFlag);
+  }
+
   ///Returns the first currency that mach the given name.
   Currency? findByName(String? name) {
     return _currencies.firstWhereOrNull((currency) => currency.name == name);

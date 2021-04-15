@@ -68,7 +68,7 @@ class _CurrencyListViewState extends State<CurrencyListView> {
 
   late List<Currency> _filteredList = [];
   late List<Currency> _currencyList = [];
-  List<Currency>? _favoriteList = [];
+  late List<Currency>? _favoriteList = [];
 
   TextEditingController? _searchController;
 
